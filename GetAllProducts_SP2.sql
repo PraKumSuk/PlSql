@@ -1,0 +1,8 @@
+DELIMITER //
+
+CREATE PROCEDURE GetAllProducts_SP2()
+BEGIN
+	SELECT *  FROM products;
+END 
+
+// DELIMITER ;
